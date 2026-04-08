@@ -184,7 +184,7 @@
             </button>
             <div class="min-w-0">
               <div class="header-brand-title text-base sm:text-lg font-black uppercase tracking-tight text-slate-950">REAL WORLD <span class="text-blue-600">CE</span></div>
-              <div class="header-brand-tagline text-[11px] sm:text-xs font-semibold tracking-[0.08em] text-slate-600 mt-1">Bringing the Real World Into Clinical Education</div>
+              <div class="header-brand-tagline text-[11px] sm:text-xs font-semibold tracking-[0.08em] text-slate-600 mt-1">Featuring Real World Data</div>
             </div>
           </div>
 
@@ -202,11 +202,6 @@
       </header>
 
       <main id="main-content" class="flex-1 overflow-y-auto content-scroll px-4 md:px-8 py-5 md:py-8"></main>
-
-      <div class="px-4 md:px-8 pb-24 md:pb-6">
-        <div class="max-w-4xl mx-auto text-center text-[11px] sm:text-xs tracking-[0.16em] uppercase font-bold text-slate-400">The archetype was created by Real Education LLC</div>
-      </div>
-
       <div class="mobile-bottom-nav md:hidden">
         <div class="inner">
           <div class="min-w-0">
@@ -296,7 +291,7 @@
         const title = document.getElementById('sidebar-module-title');
         const desc = document.getElementById('sidebar-module-description');
         if (title) title.textContent = appData.modules[activeModuleId].title;
-        if (desc) desc.textContent = moduleDescriptions[activeModuleId] || 'Premium clinical learning flow inside the Real World CE archetype.';
+        if (desc) desc.textContent = moduleDescriptions[activeModuleId] || 'Premium clinical learning flow inside the Real World CE experience.';
     }
     function goToNextSection() {
         const { next } = getPrevNextSections();
